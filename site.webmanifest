@@ -1,0 +1,16 @@
+{
+ "name": "ALBANI Avvocati",
+ "short_name": "ALBANI",
+ "lang": "it",
+ "start_url": "/",
+ "display": "browser",
+ "background_color": "#081b42",
+ "theme_color": "#081b42",
+ "icons": [
+  {
+   "src": "favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

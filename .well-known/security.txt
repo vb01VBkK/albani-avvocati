@@ -1,0 +1,5 @@
+Contact: mailto:info@studiolegalealbani.com
+Expires: 2027-11-16T00:00:00.000Z
+Preferred-Languages: it, en
+Canonical: https://www.studiolegalealbani.com/.well-known/security.txt
+Policy: https://www.studiolegalealbani.com/sicurezza.html
