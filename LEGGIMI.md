@@ -16,8 +16,7 @@ Cerca nel codice la classe `todo` (testo evidenziato in giallo sulle pagine):
 3. Ordine di appartenenza e numero di iscrizione dei professionisti (note legali)
 4. Estremi della polizza RC professionale (note legali)
 5. Fornitore di hosting e di posta (privacy policy)
-6. Indirizzi e recapiti delle sedi di Milano e Napoli (contatti)
-7. Ritratti dei founding partners (ora sostituiti da monogrammi, pagina professionisti)
+6. Ritratti dei founding partners (ora sostituiti da monogrammi, pagina professionisti)
 
 Verifica inoltre il dominio canonico: è impostato `https://www.studiolegalealbani.com` (meta canonical, sitemap, robots, security.txt, send.php).
 

@@ -210,7 +210,7 @@
           .then(function () { btn.disabled = false; });
       } else {
         var body = "Nome: " + data.get("nome") + "\nEmail: " + data.get("email") + "\nTelefono: " + (data.get("telefono") || "-") +
-          "\nSede di riferimento: " + data.get("sede") + "\nArea di interesse: " + data.get("area") + "\n\n" + data.get("messaggio");
+          "\nArea di interesse: " + data.get("area") + "\n\n" + data.get("messaggio");
         var href = "mailto:" + form.getAttribute("data-mail") + "?subject=" + encodeURIComponent("Richiesta dal sito - " + data.get("nome")) + "&body=" + encodeURIComponent(body);
         say("Abbiamo preparato il messaggio nel tuo programma di posta: per completare l'invio premi Invia da lì. Se non si apre, scrivi a " + form.getAttribute("data-mail") + ".", "ok");
         window.location.href = href;
