@@ -68,7 +68,9 @@ a:hover>.round,.round:hover{transform:translateX(4px);background:var(--navy-800)
 .site-head{position:absolute;inset:0 0 auto;z-index:10;color:var(--on-navy)}
 .head-top{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding-block:1.4rem 1.2rem}
 .brand{display:block;color:var(--sand);text-decoration:none;flex:none}
+.site-head .brand{color:#fff;filter:drop-shadow(0 1px 6px rgba(5,18,48,.45))}
 .brand svg{width:auto;height:74px;fill:currentColor}
+.site-head .brand svg{height:98px;stroke:currentColor;stroke-width:3px;stroke-linejoin:round}
 .brand:hover{color:#fff}
 .head-contacts{display:flex;gap:2.5rem}
 .hc{display:flex;align-items:center;gap:.8rem;color:#fff;text-decoration:none;font-family:var(--display)}
@@ -93,7 +95,7 @@ a:hover>.round,.round:hover{transform:translateX(4px);background:var(--navy-800)
 /* Barra compatta dopo lo scroll */
 .stuck .site-head{position:fixed;background:var(--navy-900);box-shadow:0 10px 30px -12px rgba(5,18,48,.6);animation:drop .5s var(--ease)}
 .stuck .head-top{padding-block:.55rem}
-.stuck .brand svg{height:46px}
+.stuck .site-head .brand svg{height:58px}
 .stuck .head-contacts{display:none}
 .stuck .head-nav{position:absolute;right:max(1.25rem,(100% - var(--wrap))/2);top:0;border:0;width:auto;margin:0}
 .stuck .head-nav ul{gap:.25rem}
@@ -385,7 +387,7 @@ input:focus,select:focus,textarea:focus{outline:0;border-color:var(--blue);box-s
 }
 @media (max-width:760px){
   body{font-size:1rem}
-  .brand svg{height:58px}
+  .site-head .brand svg{height:74px}
   .hero{padding:150px 0 120px;min-height:0}
   [data-home] .hero:not(.hero-inner){min-height:0;padding:150px 0 112px}
   .hero-inner{padding:150px 0 56px}
